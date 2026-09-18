@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>TaskFlow</h1>
+            <p>Organize your tasks and stay productive.</p>
+        </header>
+
+        <main class="todo-app">
+
+            <!-- Add Task -->
+            <div class="task-input">
+                <input 
+                    type="text" 
+                    id="taskInput" 
+                    placeholder="What needs to be done?"
+                    autocomplete="off"
+                >
+                <button id="addTaskBtn">Add Task</button>
+            </div>
+
+            <!-- Filters -->
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+
+            <!-- Task List -->
+            <ul id="taskList"></ul>
+
+            <!-- Empty Message -->
+            <div id="emptyMessage">
+                <p>No tasks yet. Add your first task! ✨</p>
+            </div>
+
+            <!-- Task Summary -->
+            <div class="task-footer">
+                <span id="taskCount">0 tasks</span>
+                <button id="clearCompleted">Clear Completed</button>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Thiranex Task 3 • JavaScript Logic & State Management</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

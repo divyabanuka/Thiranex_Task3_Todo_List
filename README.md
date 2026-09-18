@@ -117,8 +117,7 @@ The application is designed to work on:
 
 ## 🌐 Live Demo
 
-👉 https://divyabanuka.github.io/Thiranex_Task3_ToDo_List/
-
+👉 https://divyabanuka.github.io/Thiranex_Task3_Todo_List/
 ---
 
 ⭐ Developed as part of the **Thiranex Internship – Task 3**.

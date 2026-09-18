@@ -32,15 +32,6 @@ The project demonstrates JavaScript DOM manipulation, event handling, CRUD opera
 - DOM Manipulation
 - LocalStorage
 
-## 📂 Project Structure
-
-```text
-Thiranex_Task3_ToDo_List/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
 
 ## 🧠 Concepts Demonstrated
 
